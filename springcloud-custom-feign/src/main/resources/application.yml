@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: springcloud-custom
+
+server:
+  port: 8081
+  context-path: /springcloud-custom
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.com:7003/eureka,http://eureka7002.com:7002/eureka/,http://eureka7001.com:7001/eureka/
+    register-with-eureka: true
+    instance:
+        instance-id: springcloud-custom
+        prefer-ip-address: true
+        status-page-url-path: ${server.context-path}/info

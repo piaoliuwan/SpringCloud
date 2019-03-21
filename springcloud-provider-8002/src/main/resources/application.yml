@@ -1,0 +1,53 @@
+spring:
+  application:
+    name: springcloud-provider-dept
+  datasource:
+     driver-class-name: com.mysql.jdbc.Driver
+     url: jdbc:mysql://127.0.0.1:3306/springcloud-2
+     username: root
+     password: root
+
+##mybatis
+mybatis:
+  type-aliases-package: com.springcloud.mybatis.pojo
+  mapper-locations: classpath:mapper/*.xml
+
+##mapper
+##pagehelper
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
+
+
+server:
+  port: 8002
+  servlet-path: /springcloud-provider
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.com:7003/eureka,http://eureka7002.com:7002/eureka/,http://eureka7001.com:7001/eureka/
+  instance:
+    instance-id: springcloud-provider-dept8002
+    prefer-ip-address: true
+
+info:
+  app.name: zlj-microservicecloud
+  company-name: www.baidu.com
+  build.artifactId: $project.artifactId$   # 在pom.xml中的build中进行配置，读取以$开始$结束的变量的值
+  build.version: $project.version$
+
+
+    ##instance-id: springcloud-provider-dept8001  eureka注册名称
+      ##    prefer-ip-address: true               eureka ip展示
+  ##context-path: /springcloud-provider
+
+
+
+
+
+
+
+

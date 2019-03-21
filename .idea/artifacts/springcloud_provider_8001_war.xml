@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springcloud-provider-8001:war">
+    <output-path>$PROJECT_DIR$/springcloud-provider-8001/target</output-path>
+    <root id="archive" name="springcloud-provider-8001.war">
+      <element id="artifact" artifact-name="springcloud-provider-8001:war exploded" />
+    </root>
+  </artifact>
+</component>
