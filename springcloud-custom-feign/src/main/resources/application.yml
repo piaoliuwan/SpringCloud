@@ -6,6 +6,12 @@ server:
   port: 8081
   context-path: /springcloud-custom
 
+#开启hystrix对feign的支持
+feign:
+  # Dalston SR1（待定）之后的版本默认关闭hystrix对feign的支持，如果想要使用fallback功能这里必须启用
+  hystrix:
+    enabled: true
+
 eureka:
   client:
     service-url:
@@ -15,3 +21,5 @@ eureka:
         instance-id: springcloud-custom
         prefer-ip-address: true
         status-page-url-path: ${server.context-path}/info
+
+
