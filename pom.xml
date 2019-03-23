@@ -19,6 +19,7 @@
       <module>springcloud-provider-8002</module>
       <module>springcloud-provider-8003</module>
       <module>springcloud-custom-feign</module>
+      <module>springcloud-provider-8001-Hystrix</module>
 
   </modules>
   <packaging>pom</packaging>

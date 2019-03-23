@@ -14,6 +14,7 @@
         <module name="springcloud-eureka-7001" />
         <module name="springcloud-provider-80" />
         <module name="springcloud-provider-8001" />
+        <module name="springcloud-provider-8001-Hystrix" />
         <module name="springcloud-provider-8002" />
         <module name="springcloud-provider-8003" />
         <module name="springcloud-rureka-Register-test" />
@@ -31,6 +32,7 @@
       <module name="springcloud-parent" target="1.8" />
       <module name="springcloud-provider-80" target="1.8" />
       <module name="springcloud-provider-8001" target="1.7" />
+      <module name="springcloud-provider-8001-Hystrix" target="1.8" />
       <module name="springcloud-provider-8002" target="1.8" />
       <module name="springcloud-provider-8003" target="1.8" />
       <module name="springcloud-rureka-Register-test" target="1.8" />
