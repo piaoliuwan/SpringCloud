@@ -11,6 +11,7 @@
         <module name="springcloud-api" />
         <module name="springcloud-custom" />
         <module name="springcloud-custom-feign" />
+        <module name="springcloud-custom-hystrixDashboard-9001" />
         <module name="springcloud-eureka-7001" />
         <module name="springcloud-provider-80" />
         <module name="springcloud-provider-8001" />
@@ -27,6 +28,7 @@
       <module name="springcloud-api" target="1.7" />
       <module name="springcloud-custom" target="1.7" />
       <module name="springcloud-custom-feign" target="1.8" />
+      <module name="springcloud-custom-hystrixDashboard-9001" target="1.8" />
       <module name="springcloud-eureka-7001" target="1.8" />
       <module name="springcloud-eureka-7003" target="1.8" />
       <module name="springcloud-parent" target="1.8" />

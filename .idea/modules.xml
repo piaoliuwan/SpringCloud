@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud-api/springcloud-api.iml" filepath="$PROJECT_DIR$/springcloud-api/springcloud-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-custom/springcloud-custom.iml" filepath="$PROJECT_DIR$/springcloud-custom/springcloud-custom.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-custom-feign/springcloud-custom-feign.iml" filepath="$PROJECT_DIR$/springcloud-custom-feign/springcloud-custom-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-custom-hystrixDashboard-9001/springcloud-custom-hystrixDashboard-9001.iml" filepath="$PROJECT_DIR$/springcloud-custom-hystrixDashboard-9001/springcloud-custom-hystrixDashboard-9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-7001/springcloud-eureka-7001.iml" filepath="$PROJECT_DIR$/springcloud-eureka-7001/springcloud-eureka-7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent.iml" filepath="$PROJECT_DIR$/springcloud-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-provider-80/springcloud-provider-80.iml" filepath="$PROJECT_DIR$/springcloud-provider-80/springcloud-provider-80.iml" />

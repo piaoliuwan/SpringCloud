@@ -28,7 +28,7 @@ public class deptController {
      */
     @HystrixCommand(fallbackMethod = "processHystrix_Exception")
     public List<Dept> queryAll(){
-        int x = 1/0;
+        //int x = 1/0;
         return deptService.queryAll();
     }
 
