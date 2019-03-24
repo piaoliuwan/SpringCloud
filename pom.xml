@@ -21,6 +21,7 @@
       <module>springcloud-custom-feign</module>
       <module>springcloud-provider-8001-Hystrix</module>
       <module>springcloud-custom-hystrixDashboard-9001</module>
+      <module>springcloud-zuul</module>
 
   </modules>
   <packaging>pom</packaging>

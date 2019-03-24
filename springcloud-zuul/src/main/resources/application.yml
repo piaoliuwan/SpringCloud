@@ -1,0 +1,20 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: springcloud-zuul-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka      
+  instance:
+    instance-id: gateway-9527.com
+    prefer-ip-address: true
+
+info:
+  app.name: zlj-microservicecloud
+  company-name: www.baidu.com
+  build.artifactId: $project.artifactId$   # 在pom.xml中的build中进行配置，读取以$开始$结束的变量的值
+  build.version: $project.version$
