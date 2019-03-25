@@ -18,3 +18,11 @@ info:
   company-name: www.baidu.com
   build.artifactId: $project.artifactId$   # 在pom.xml中的build中进行配置，读取以$开始$结束的变量的值
   build.version: $project.version$
+
+zuul:
+  #ignored-services: microservicecloud-dept
+  prefix: /owner                        #前缀
+  ignored-services: "*"                #禁止所有的eureka服务名称直接访问
+  routes:
+    mydept1.serviceId: SPRINGCLOUD-PROVIDER-DEPT       #将其进行替换
+    mydept1.path: /mydept/**
