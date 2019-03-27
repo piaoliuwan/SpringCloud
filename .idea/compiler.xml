@@ -9,6 +9,7 @@
         <module name="spring-cloud-eureka-7002" />
         <module name="spring-cloud-eureka-7003" />
         <module name="springcloud-api" />
+        <module name="springcloud-config-client-3355" />
         <module name="springcloud-config-server-3344" />
         <module name="springcloud-custom" />
         <module name="springcloud-custom-feign" />
@@ -28,6 +29,7 @@
       <module name="spring-cloud-eureka-7002" target="1.8" />
       <module name="spring-cloud-eureka-7003" target="1.8" />
       <module name="springcloud-api" target="1.7" />
+      <module name="springcloud-config-client-3355" target="1.8" />
       <module name="springcloud-config-server-3344" target="1.8" />
       <module name="springcloud-custom" target="1.7" />
       <module name="springcloud-custom-feign" target="1.8" />

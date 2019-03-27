@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/springcloudeureka7002/spring-cloud-eureka-7002.iml" filepath="$PROJECT_DIR$/springcloudeureka7002/spring-cloud-eureka-7002.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-7003/spring-cloud-eureka-7003.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-7003/spring-cloud-eureka-7003.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-api/springcloud-api.iml" filepath="$PROJECT_DIR$/springcloud-api/springcloud-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config-client-3355/springcloud-config-client-3355.iml" filepath="$PROJECT_DIR$/springcloud-config-client-3355/springcloud-config-client-3355.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-config-server-3344/springcloud-config-server-3344.iml" filepath="$PROJECT_DIR$/springcloud-config-server-3344/springcloud-config-server-3344.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-custom/springcloud-custom.iml" filepath="$PROJECT_DIR$/springcloud-custom/springcloud-custom.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-custom-feign/springcloud-custom-feign.iml" filepath="$PROJECT_DIR$/springcloud-custom-feign/springcloud-custom-feign.iml" />
